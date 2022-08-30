@@ -1,0 +1,456 @@
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(https://ffont.ru/font/helvetica-neue-cyr);
+}
+*{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    display: flex;
+   
+}
+.wrapper .left-side {
+    width: 30%;
+    /*background-color: grey;*/
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+.wrapper .left-side .candidate-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .left-side .candidate-image img {
+    width: 90%;
+}
+
+/* .wrapper .left-side .candidate-greetings {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+} */
+
+#yellow-block {
+    width: 12%;
+    height: 117%;
+    background-color: #A2D4F2;
+    position: relative;
+    top: 24%;
+    left: 3%;
+}
+
+.wrapper .left-side .candidate-greetings .greetings-text {
+    position: relative;
+    left: -17%;
+    top: -35%;
+    left: 9%;
+    height: 77%;
+}
+.wrapper .left-side .candidate-greetings .greetings-text  .Surname {
+    color: black;
+    padding-left: 201%;
+    font-size: 40px;
+    text-shadow: 1px 3px 3px #A2D4F2;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Hello {
+    display: block;
+    padding-top: 151%;
+    padding-left: 48%;
+    font-size: 40px;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Im {
+    display: block;
+    padding-top: -20%;
+    padding-left: 61%;
+    font-size: 40px;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Diana {
+    display: inline-block;
+    padding-left: 197%;
+    padding-top: 12px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 1px 3px 3px #A2D4F2;
+}
+
+
+/*.greetings {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin-left: 10px;*/
+/*    margin-top: 10px;*/
+/*    box-sizing: border-box;*/
+
+/*}*/
+
+/*.greetings .candidate-image {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.left-side .greetings img {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.left-side .greetings .greetings-item {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+
+
+/*.greetings-text {*/
+/*    width: 100%;*/
+/*    !* position: relative;*/
+/*    top: 45%; *!*/
+/*    font-size: 50px;*/
+/*    padding: 0px;*/
+
+/*}*/
+
+.Contacts {
+    width: 100%;
+    background-color: #A2D4F2;;
+    font-size: 20px;
+    display: flex;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/*}*/
+
+.Contacts p {
+    margin: 5px;
+}
+
+/* .Contacts #name {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+} */
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Skills div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Skills-range1 {
+    width: 60%;
+    height: 10px;
+    background-color: #A2D4F2;
+    background-image: url(Ресурс4@288x.png);
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.Skills-range2 {
+    width: 60%;
+    height: 10px;
+    background-color: #A2D4F2;
+    background-image: url(Ресурс4@288x.png);
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+}
+
+.Skills-range3 {
+    width: 60%;
+    height: 10px;
+    background-color: #A2D4F2;
+    background-image: url(Ресурс4@288x.png);
+    background-size: 68% 100%;
+    background-repeat: no-repeat;
+}
+
+.Skills-range4 {
+    width: 60%;
+    height: 10px;
+    background-color: #A2D4F2;
+    background-image: url(Ресурс4@288x.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+}
+
+.Skills-range5 {
+    width: 60%;
+    height: 10px;
+    background-color: #A2D4F2;
+    background-image: url(Ресурс4@288x.png);
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+}
+
+.Languages {
+    width: 100%;
+
+}
+
+
+.Languages .first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Languages .first-line div{
+    width: 100px;
+    height: 100px;
+    background-color: #A2D4F2;
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: 100px 100px;
+    margin: 0px 30px 0px 25px;
+}
+
+.Languages .first-line span{
+    transform: rotate(315deg);
+    display: block;
+}
+.Languages .second-line {
+    width: 100px;
+    height: 100px;
+    background-color: #A2D4F2;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Languages .second-line span {
+    transform: rotate(315deg);
+    display: block;
+
+}
+
+.right-side {
+    width: 70%;
+    border-left: 2px solid #A2D4F2;
+    display: flex;
+    flex-direction: column;
+    
+    /*background-color: blue;*/
+}
+.right-side h1 {
+    border-bottom: 2px solid #A2D4F2;
+    text-indent: 15px;
+}
+.right-side p, h2, h3, h4 {
+    margin: 20px;
+}
+.right-side .wrapper-edu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.right-side .wrapper-uni {
+    width: 50%;
+    margin: 20px;
+    text-align: justify;
+}
+.right-side h4, h3 {
+    font-weight: normal;
+}
+.right-side  .Sertificates img {
+    margin: 20px;
+    width: 40%;
+    
+}
+footer div {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    border-top: 3px solid #A2D4F2;
+    text-indent: 40px;
+    color: #A2D4F2;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 1024px) {
+  
+    .wrapper .left-side #yellow-block {
+        left: 0%;
+    }
+
+.wrapper .left-side .candidate-greetings .greetings-text .Hello {
+    font-size: 30px;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Im {
+    font-size: 30px;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Diana {
+    font-size: 30px;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Surname {
+    font-size: 30px;
+}
+.right-side  .Sertificates img {
+    margin: 20px;
+    width: 100%;
+    
+}
+}
+@media (max-width: 768px) {
+
+.wrapper .left-side .candidate-greetings .greetings-text {
+        position: relative;
+        left: 6%;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Hello {
+    display: block;
+    padding-top: 151%;
+    padding-left: 25%;
+    font-size: 29px;}
+ .wrapper .left-side .candidate-greetings .greetings-text .Im {
+        display: block;
+        padding-top: -20%;
+        padding-left: 47%;
+        font-size: 29px;
+ }
+ .wrapper .left-side .candidate-greetings .greetings-text .Diana {
+ font-size: 26px;
+ box-sizing: border-box;
+ }
+ .wrapper .left-side .candidate-greetings .greetings-text .Surname {
+ font-size: 26px;
+ box-sizing: border-box;
+ }
+.wrapper .left-side .Contacts p {
+    font-size: smaller;
+}
+.wrapper .left-side .Skills div {
+    font-size: smaller;
+}
+.wrapper .left-side .Languages .first-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+@media (max-width: 600px) {
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper .left-side {
+    width: 100%;
+}
+.wrapper .left-side .candidate-image {
+    z-index: 0;
+}
+.wrapper .left-side .candidate-greetings .greetings-text {
+    top: -5px;
+    height: 380px;
+    left: 23%;
+    z-index: 2;
+}
+
+.wrapper .left-side .candidate-greetings .greetings-text  .Surname {
+    color: black;
+    padding-left: 201%;
+    font-size: 1.5em;
+    text-shadow: 1px 3px 3px #A2D4F2;
+   
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Hello {
+    display: block;
+    padding-top: 122%;
+    padding-left: 51%;
+    font-size: 1.5em;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Im {
+    display: block;
+    padding-top: -14%;
+    padding-left: 85%;
+    font-size: 1.5em;
+}
+.wrapper .left-side .candidate-greetings .greetings-text .Diana {
+    display: inline-block;
+    padding-left: 197%;
+    font-size: 1.5em;
+    color: black;
+    text-shadow: 1px 3px 3px #A2D4F2;
+   
+}
+.wrapper .left-side .candidate-greetings #yellow-block {
+    height: 367px;
+    top: -74px;
+    left: -11%;
+    position: relative;
+    z-index: 1;
+}
+.wrapper .left-side .Contacts {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.wrapper .left-side .Skills {
+    margin-top: 20px;
+}
+.wrapper .left-side .Skills h2 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.wrapper .left-side .Skills span, .Skills-range1, .Skills-range2, .Skills-range3, .Skills-range4, .Skills-range5 {
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.wrapper .left-side .Skills span {
+    font-size: large;
+}
+.wrapper .left-side .Languages {
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+.wrapper .right-side {
+    width: 100%;
+    margin-top: 40px;
+}
+.wrapper .right-side h1 {
+    text-align: center;
+}
+.wrapper .right-side .wrapper-edu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   ;
+}
+.wrapper .right-side .wrapper-uni  {
+    text-align: center;
+}
+.wrapper .right-side .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .right-side .wrapper-work {
+    text-align: center;
+    
+}
+
+
+    
+}
